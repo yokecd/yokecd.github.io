@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yoke — an alternative vision for Kubernetes resource management. No YAML, just clean software engineering."
+    />
+    <title>Yoke Hub</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #0d0d0d;
+        color: #e0e0e0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      div {
+        margin: 1em 0;
+      }
+
+      .logo {
+        width: clamp(300px, 40%, 600px);
+        padding: 40px 20px;
+        background-color: #1a1a1a;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+      }
+      .logo img {
+        max-width: 80%;
+        max-height: 80%;
+      }
+
+      p {
+        max-width: 500px;
+        margin: 0.5rem auto 2rem;
+        font-size: 1.3rem;
+        color: #aaa;
+      }
+
+      .links {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .links a {
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #0d0d0d;
+        background: linear-gradient(90deg, #aaaaaa, #9e98ca);
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        transition:
+          transform 0.15s ease,
+          box-shadow 0.15s ease;
+        min-width: 100px;
+        text-align: center;
+        border: 1px solid transparent;
+      }
+      .links a:hover {
+        border-color: rgba(158, 152, 202, 0.8);
+        box-shadow:
+          0 0 20px rgba(158, 152, 202, 0.9),
+          0 0 40px rgba(158, 152, 202, 0.6);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="logo.svg" alt="Yoke Logo" />
+    </div>
+
+    <div>
+      <p>
+        Yoke is an alternative vision for Kubernetes resource management — one where we step away from YAML and embrace
+        software engineering at its finest.
+      </p>
+    </div>
+
+    <div class="links">
+      <a href="https://yokecd.github.io/docs">docs</a>
+      <a href="https://yokecd.github.io/blog">blog</a>
+      <a href="https://github.com/yokecd/yoke">source</a>
+      <a href="https://discord.com/invite/tHCRKg6s7Z">discord</a>
+    </div>
+  </body>
+</html>
